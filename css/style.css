@@ -1,0 +1,63 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 15px;
+}
+
+.container .row {
+    display: flex;
+}
+
+.container .row .col{
+    padding: 15px;
+}
+
+.container .row > .btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .row > .btn-group .btn:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.container .row > .btn-group .radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .row .col select {
+    padding: 6px 2px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    width: 200px;
+    outline: none;
+}
+
+.container .row .col select:not(:last-child) {
+    margin-right: 10px;
+}
+
+.container .row .col canvas {
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 6px;
+    color: #333;
+    background-color: #ffdd2d;
+    outline: none;
+    transition: .3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ffcd33;
+}
+
