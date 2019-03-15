@@ -1,5 +1,5 @@
 # test
-test for Tinkoff
+test
 
 ## API
 
